@@ -6,6 +6,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #333;
+    color: white;
   }
   
   .header {
@@ -20,6 +22,7 @@ body {
     background-color: #333;
     padding: 10px 10px 20px 20px;
     display: flex;
+    z-index: 1000;
   }
   
   .navbar a {
@@ -160,3 +163,252 @@ body {
     align-items: flex-start;
     padding-top: 2px;
   }
+
+  /* conjunto */
+
+  .conjunto {
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .funcao {
+    background-color: black;
+    width: 24.25%;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  .funcao-imagem {
+    background-color: #202020;
+    border-radius: 10px 0px 0px 10px;
+    width: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 10px;
+    }
+  }
+
+  /* produtos */
+
+.conteiner-card {
+  justify-content: space-between;
+  display: flex;
+}
+
+.conteiner-card2 {
+  display: flex;
+}
+
+.product-card {
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    img {
+      width: 100%;
+      border-radius: 10px;
+      filter: brightness(0.70);
+    }
+}
+
+.product-card img:hover {
+  filter: brightness(1);
+}
+
+.shipping-info {
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.product-title {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.modo-pag {
+  color: #009E2A;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.product-card .price {
+    color: #009E2A;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.discount-info {
+    color: #bbb;
+    font-size: 10px;
+}
+
+.installment-info {
+    font-size: 13px;
+}
+
+/* footer */
+
+.top-fot {
+  margin: 20px 30px -20px 20px;
+  display: flex;
+}
+
+.horario {
+  background-color: #3A3A3D;
+  width: 70%;
+  height: 80px;
+  margin-right: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aten {
+  display: flex;
+}
+
+.aten .text {
+  font-size: 15px;
+}
+
+.atendimento {
+  background-color: red;
+  width: 30%;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.atendimento .text {
+  font-size: 15px;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 12px;
+  margin-right: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1c1c1c;
+}
+
+.footer-df{
+  display: flex;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+.footer-column h3 {
+  color: #ff0000;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-column h3::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #ff0000;
+  margin-top: 5px;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+.footer-column .payment-methods img,
+.footer-column .app-links img {
+  width: 100px;
+  margin: 5px;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter p {
+  font-size: 15px;
+}
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  width: 300px;
+  height: 30px;
+}
+
+.aa {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  width: 25px;
+  height: 30px;
+}
+
+.social-circle {
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  margin-top: 10px;
+}
+.social-icons a {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
